@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stereo</title>
+    <script
+      src="https://kit.fontawesome.com/4c32f15912.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="over-lay"></div>
+    <div class="container">
+      <div class="cover-image">
+        <img src="" alt="cover-photo" id="cover-art" />
+      </div>
+      <div class="song-info">
+        <h2 class="song-title" id="song-title"></h2>
+        <p class="artist-name" id="artist-name"></p>
+      </div>
+      <div class="progress-container" id="progress-container">
+        <div class="progress" id="progress"></div>
+      </div>
+
+      <audio src="./songs/Akaraka.mp3" preload="auto" id="audio"></audio>
+
+      <div class="control">
+        <button id="prev" class="btn">
+          <i class="fas fa-backward"></i>
+        </button>
+        <button id="play" class="btn-big">
+          <i class="fas fa-play"></i>
+        </button>
+        <button id="next" class="btn">
+          <i class="fas fa-forward"></i>
+        </button>
+      </div>
+    </div>
+    <!-- #a2884e  #302f28-->
+    <script src="main.js"></script>
+  </body>
+</html>
