@@ -1,0 +1,1 @@
+This is a simple music player interface. I haven't been coding for a while due to exams so this just serves as a refresher!!! Enjoy my carefully curated list of songs lol. Do not hesitate to fork this if you notice any errors.
